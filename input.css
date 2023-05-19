@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .oval {
+    width: 80px;
+    height: 23px;
+    border-radius: 100%;
+    border: 1px solid white;
+  }
+}
+.humberger-line {
+  @apply my-2 block h-[2px] w-[30px] bg-white;
+}
+.navbar-fixed {
+  @apply fixed z-50 bg-primary shadow-md;
+}
+.humberger-active > span:nth-child(1) {
+  @apply rotate-45;
+}
+.humberger-active > span:nth-child(2) {
+  @apply scale-0;
+}
+.humberger-active > span:nth-child(3) {
+  @apply -rotate-45;
+}

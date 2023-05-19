@@ -4,8 +4,146 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.cdnfonts.com/css/gelion" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+      /* * {
+        border: solid 1px;
+      } */
+    </style>
     <title>Ide Pagi</title>
   </head>
-  <body></body>
+  <body style="height: 1000px">
+    <!-- header -->
+    <section
+      id="header"
+      class="absolute left-0 top-0 z-20 w-full font-gelion font-thin"
+    >
+      <div class="container px-8 py-4">
+        <div class="relative flex items-center justify-between">
+          <div>
+            <h1 class="text-2xl font-semibold text-primary">
+              <a href="#home"
+                ><img src="img/logo.png" width="50px" alt="logo"
+              /></a>
+            </h1>
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              type="button"
+              id="humberger"
+              type="button"
+              class="lg:hidden"
+            >
+              <span
+                class="humberger-line origin-top-left transition duration-500 ease-in-out"
+              ></span>
+              <span class="humberger-line duration-500 ease-in-out"></span>
+              <span
+                class="humberger-line origin-bottom-left duration-500 ease-in-out"
+              ></span>
+            </button>
+            <nav
+              id="nav-menu"
+              class="border-sky-100lg: absolute right-10 top-full hidden w-full max-w-[250px] rounded-md border bg-second py-2 text-base text-primary shadow-xl lg:static lg:block lg:max-w-full lg:border-none lg:bg-transparent lg:py-0 lg:shadow-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="mx-8 flex items-center py-2 group-hover:text-primary"
+                    >Home</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#about"
+                    class="mx-8 flex items-center py-2 group-hover:text-primary"
+                    >About</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#portofolio"
+                    class="mx-8 flex items-center py-2 group-hover:text-primary"
+                    >Portofolio</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#client"
+                    class="mx-8 flex items-center py-2 group-hover:text-primary"
+                    >Client</a
+                  >
+                </li>
+
+                <li class="group">
+                  <a
+                    href="#blog"
+                    class="mx-8 flex items-center py-2 group-hover:text-primary"
+                    >Blog</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#contact"
+                    class="mx-8 flex items-center py-2 group-hover:text-primary"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- header end -->
+    <!-- Home -->
+    <section id="home" class="h-screen w-full bg-primary">
+      <div
+        class="first-letter container h-full w-full bg-[length:38%] bg-center bg-no-repeat sm:bg-[length:30%] md:bg-[length:25%] lg:sm:bg-[length:20%]"
+        style="background-image: url('img/home.webp')"
+      >
+        <div class="flex h-full w-full items-center justify-center">
+          <div class="">
+            <h1
+              class="max-w-lg font-tinos text-2xl font-medium text-white sm:text-3xl md:max-w-lg md:text-4xl lg:max-w-2xl lg:text-6xl"
+            >
+              <p>Idepagi Creative is a design &</p>
+              <p><span class="italic">branding</span> studio that crafts</p>
+              <p>thoughtful -</p>
+            </h1>
+            <a href="#service" class="mt-4 inline-block">
+              <p class="oval flex items-center justify-center">
+                <span
+                  class="font-gelion text-xs font-light tracking-widest text-white"
+                >
+                  SERVICE
+                </span>
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home end -->
+    <!-- to top -->
+    <a
+      href="#home"
+      class="group fixed bottom-3 right-3 z-50 hidden h-8 w-8 items-center justify-center rounded-full bg-primary lg:h-10 lg:w-10"
+      id="to-top"
+    >
+      <span
+        class="block h-3 w-3 translate-y-[0.15rem] rotate-45 border-l-2 border-t-2 transition duration-500 group-hover:-translate-y-[0rem]"
+      ></span
+    ></a>
+    <!-- to top end -->
+    <script src="js/script.js"></script>
+  </body>
 </html>
