@@ -9,6 +9,15 @@
     border-radius: 100%;
     border: 1px solid white;
   }
+  .oval2 {
+    width: 120px;
+    height: 38px;
+    border-radius: 100%;
+    border: 1.5px solid white;
+  }
+}
+.btn-primary {
+  @apply oval lg:oval2;
 }
 .humberger-line {
   @apply my-2 block h-[2px] w-[30px] bg-white;

@@ -5,7 +5,13 @@ module.exports = {
     extend: {
       container: {
         center: true,
-        padding: "16px",
+        padding: {
+          DEFAULT: "1rem",
+          sm: "2rem",
+          lg: "4rem",
+          xl: "6rem",
+          "2xl": "8rem",
+        },
       },
       colors: {
         primary: "#f96436",
@@ -14,6 +20,9 @@ module.exports = {
       fontFamily: {
         gelion: ["Gelion", "ui-sans-serif", "system-ui"],
         tinos: ["Tinos", "serif", "ui-serif", "Georgia", "Cambria"],
+      },
+      screens: {
+        "2xl": "1320px",
       },
     },
   },
