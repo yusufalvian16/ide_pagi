@@ -18,7 +18,7 @@ module.exports = {
         second: "#eee1d1",
       },
       fontFamily: {
-        gelion: ["Gelion", "ui-sans-serif", "system-ui"],
+        gelion: ["Montserrat", "ui-sans-serif", "system-ui"],
         tinos: ["Tinos", "serif", "ui-serif", "Georgia", "Cambria"],
       },
       screens: {
