@@ -1,2 +1,4 @@
-This is landing page to Ide pagi
+This is landing page Ide pagi
+build with:
+#tailwindcss
 by :yusuf alvian
