@@ -82,7 +82,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" :"npx tailwindcss -i ./input.css -o ./src/css/style.css --watch"
+    "dev": "npx tailwindcss -i ./input.css -o ./src/css/style.css --watch"
   },
   "repository": {
     "type": "git",

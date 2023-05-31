@@ -19,7 +19,13 @@ module.exports = {
       },
       fontFamily: {
         gelion: ["Montserrat", "ui-sans-serif", "system-ui"],
-        tinos: ["Tinos", "serif", "ui-serif", "Georgia", "Cambria"],
+        tinos: [
+          "Cormorant Garamond",
+          "serif",
+          "ui-serif",
+          "Georgia",
+          "Cambria",
+        ],
       },
       screens: {
         "2xl": "1320px",
